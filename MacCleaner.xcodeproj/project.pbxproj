@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DA287C9513988F841ED5BB3 = {isa = PBXBuildFile; fileRef = ACDE198431076D7D5BFBEAB5; };
+		4824C12FD71018B8FDDE39D5 = {isa = PBXBuildFile; fileRef = DE339D1393291A74C45E427B; };
+		9ED936335AA5FB6E4E1D03DF = {isa = PBXBuildFile; fileRef = 8904850624B24770B4198D36; };
+		1FC116AD232985C70ECD28B7 = {isa = PBXBuildFile; fileRef = 491970EC2BCCB117FEC8D451; };
+		6B8001DABC00C7B45D3BFA0C = {isa = PBXBuildFile; fileRef = 8B40A3F1CAC9ADB66B78DD5C; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACDE198431076D7D5BFBEAB5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCleanerApp.swift; sourceTree = "<group>"; };
+		DE339D1393291A74C45E427B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8904850624B24770B4198D36 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerViewModel.swift; sourceTree = "<group>"; };
+		491970EC2BCCB117FEC8D451 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B40A3F1CAC9ADB66B78DD5C = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7496084ECB19E7141BFC3BF = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294174BE4BF2511F5691ABCD = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C2DF22B7938F1E7B20A599A2 = {
+			isa = PBXGroup;
+			children = (
+				3E631ADB6ABC26D03DA35464,
+				5980351B3BA9B0F979CBD4FE,
+			);
+			sourceTree = "<group>";
+		};
+		3E631ADB6ABC26D03DA35464 = {
+			isa = PBXGroup;
+			children = (
+				ACDE198431076D7D5BFBEAB5,
+				DE339D1393291A74C45E427B,
+				8904850624B24770B4198D36,
+				491970EC2BCCB117FEC8D451,
+				8B40A3F1CAC9ADB66B78DD5C,
+				A7496084ECB19E7141BFC3BF,
+			);
+			path = MacCleaner;
+			sourceTree = "<group>";
+		};
+		5980351B3BA9B0F979CBD4FE = {
+			isa = PBXGroup;
+			children = (
+				294174BE4BF2511F5691ABCD,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96864F7082746A804FBD94;
+			buildPhases = (
+				2869947FE2AA31949184E472,
+				9737421A6B4F1D6473FC39C0,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCleaner;
+			productName = MacCleaner;
+			productReference = 294174BE4BF2511F5691ABCD;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC76E9F0C0006E8F919E0C51 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B21C1D195CCB6F2828E1C10C;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2DF22B7938F1E7B20A599A2;
+			productRefGroup = 5980351B3BA9B0F979CBD4FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9737421A6B4F1D6473FC39C0 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8001DABC00C7B45D3BFA0C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2869947FE2AA31949184E472 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA287C9513988F841ED5BB3,
+				4824C12FD71018B8FDDE39D5,
+				9ED936335AA5FB6E4E1D03DF,
+				1FC116AD232985C70ECD28B7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E8ACABCCBE1DB5D311988C9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				MACOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F84FD35CA8548076F2B51EDF = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		53797DE442FCF2C62405D6BD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacCleaner/Info.plist;
+				MACOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.MacCleaner;
+				PRODUCT_NAME = MacCleaner;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C015BAAA3C846BD82DBAB3CE = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacCleaner/Info.plist;
+				MACOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.MacCleaner;
+				PRODUCT_NAME = MacCleaner;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B21C1D195CCB6F2828E1C10C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8ACABCCBE1DB5D311988C9,
+				F84FD35CA8548076F2B51EDF,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96864F7082746A804FBD94 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53797DE442FCF2C62405D6BD,
+				C015BAAA3C846BD82DBAB3CE,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = DC76E9F0C0006E8F919E0C51;
+}
