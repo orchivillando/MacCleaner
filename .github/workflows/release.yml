@@ -42,7 +42,7 @@ jobs:
           ln -s /Applications "dmg_staging/Applications"
 
           hdiutil create \
-            -volname "Mac Cleaner" \
+            -volname "MacCleaner" \
             -srcfolder dmg_staging \
             -ov \
             -format UDZO \
@@ -60,24 +60,30 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          name: "Mac Cleaner ${{ github.ref_name }}"
+          name: "MacCleaner ${{ github.ref_name }}"
           body: |
-            ## 🧹 Mac Cleaner ${{ github.ref_name }}
+            ## ✨ MacCleaner ${{ github.ref_name }} — Enterprise Edition
 
-            Aplikasi macOS SwiftUI untuk membersihkan file sampah di Mac Anda.
+            A full-featured macOS cleaner app inspired by CleanMyMac Pro.
 
-            ### ✨ Fitur
-            - 🗂 User Caches (`~/Library/Caches`)
-            - 📝 User Logs (`~/Library/Logs`)
-            - ⏰ Temp Files (`/tmp`)
-            - 🗑 Sampah/Trash (`~/.Trash`)
+            ### 🚀 What's New in v2.0.0
+            - **Menu Bar Icon** — live disk usage in your menu bar
+            - **Dashboard** — real-time disk & memory rings
+            - **Smart Scan** — scan all 9 junk categories at once
+            - **System Junk** — User Caches, Logs, Temp, Trash, Mail, Xcode, iOS Simulator
+            - **Large Files** — find files >50 MB across Downloads, Documents, Desktop, Movies
+            - **App Uninstaller** — remove apps + leftover Library files
+            - **Privacy Cleaner** — Safari, Chrome, Firefox history & cache
+            - **Memory Boost** — reclaim inactive RAM
+            - **Maintenance** — flush DNS, QuickLook cache, font cache, Spotlight re-index
 
-            ### 📥 Cara Install
-            1. Download **MacCleaner-${{ github.ref_name }}.dmg** di bawah
-            2. Buka DMG → drag **MacCleaner.app** ke **Applications**
-            3. Pertama kali buka: klik kanan → **Open** (bypass Gatekeeper)
+            ### 📥 How to Install
+            1. Download **MacCleaner-${{ github.ref_name }}.dmg** below
+            2. Open DMG → drag **MacCleaner.app** to **Applications**
+            3. First launch: **right-click → Open** to bypass Gatekeeper
 
-            > ⚠️ Aplikasi tidak di-code-sign, gunakan klik kanan → Open pada pertama kali.
+            > ⚠️ App is ad-hoc signed only. Always right-click → Open on first launch.
           files: dist/*.dmg
           draft: false
           prerelease: false
+
