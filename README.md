@@ -53,6 +53,8 @@ open MacCleaner.xcodeproj
 ## 📸 Screenshot
 
 > Tampilan utama dengan sidebar kategori, daftar file, dan progress scanning.
+> <img width="1017" height="813" alt="Screenshot 2026-05-03 at 17 09 13" src="https://github.com/user-attachments/assets/ffe5ea65-9404-4c1b-835e-dabd0879f299" />
+
 
 ---
 
