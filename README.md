@@ -61,4 +61,4 @@ open MacCleaner.xcodeproj
 
 ## 📄 License
 
-[MIT](LICENSE) © 2025 orchivillando
+[MIT](LICENSE) © 2026 orchivillando
